@@ -25,5 +25,12 @@ namespace Devrocks.Travis.Demo.Tests
             var a = true;
             Assert.True(a);
         }
+
+        [Fact]
+        public void Test4()
+        {
+            var a = false;
+            Assert.False(a);
+        }
     }
 }
